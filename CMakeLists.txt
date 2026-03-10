@@ -1,18 +1,15 @@
 cmake_minimum_required(VERSION 3.20)
-project(qqlyrics-backend LANGUAGES CXX)
+project(qqmusic-island LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Qt6 REQUIRED COMPONENTS Core DBus WebSockets)
+find_package(Qt6 REQUIRED COMPONENTS Core DBus)
 
-add_executable(qqlyrics
+add_executable(qqmusic-island
   src/main.cpp
   src/mpris_watcher.cpp
-  src/lyrics_provider.cpp
-  src/timeline_engine.cpp
-  src/ipc_server.cpp
 )
 
-target_include_directories(qqlyrics PRIVATE src)
-target_link_libraries(qqlyrics PRIVATE Qt6::Core Qt6::DBus Qt6::WebSockets)
+target_include_directories(qqmusic-island PRIVATE src)
+target_link_libraries(qqmusic-island PRIVATE Qt6::Core Qt6::DBus)
