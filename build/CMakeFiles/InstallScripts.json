@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/mnt/shared/myProject/qqmusic-island/build/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
