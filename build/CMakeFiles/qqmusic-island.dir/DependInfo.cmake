@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/mnt/shared/myProject/qqmusic-island/build/qqmusic-island_autogen/mocs_compilation.cpp" "CMakeFiles/qqmusic-island.dir/qqmusic-island_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/qqmusic-island.dir/qqmusic-island_autogen/mocs_compilation.cpp.o.d"
   "/mnt/shared/myProject/qqmusic-island/src/main.cpp" "CMakeFiles/qqmusic-island.dir/src/main.cpp.o" "gcc" "CMakeFiles/qqmusic-island.dir/src/main.cpp.o.d"
   "/mnt/shared/myProject/qqmusic-island/src/mpris_watcher.cpp" "CMakeFiles/qqmusic-island.dir/src/mpris_watcher.cpp.o" "gcc" "CMakeFiles/qqmusic-island.dir/src/mpris_watcher.cpp.o.d"
   "" "qqmusic-island" "gcc" "CMakeFiles/qqmusic-island.dir/link.d"

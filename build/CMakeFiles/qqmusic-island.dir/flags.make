@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_NO_DEBUG
 
-CXX_INCLUDES = -I/mnt/shared/myProject/qqmusic-island/src -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtDBus
+CXX_INCLUDES = -I/mnt/shared/myProject/qqmusic-island/build/qqmusic-island_autogen/include -I/mnt/shared/myProject/qqmusic-island/src -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtDBus
 
 CXX_FLAGS = -std=gnu++20 -mno-direct-extern-access
 

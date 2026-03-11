@@ -1,3 +1,5 @@
 /mnt/shared/myProject/qqmusic-island/build/CMakeFiles/qqmusic-island.dir
 /mnt/shared/myProject/qqmusic-island/build/CMakeFiles/edit_cache.dir
 /mnt/shared/myProject/qqmusic-island/build/CMakeFiles/rebuild_cache.dir
+/mnt/shared/myProject/qqmusic-island/build/CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir
+/mnt/shared/myProject/qqmusic-island/build/CMakeFiles/qqmusic-island_autogen.dir

@@ -2,6 +2,7 @@ qqmusic-island: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
+  CMakeFiles/qqmusic-island.dir/qqmusic-island_autogen/mocs_compilation.cpp.o \
   CMakeFiles/qqmusic-island.dir/src/main.cpp.o \
   CMakeFiles/qqmusic-island.dir/src/mpris_watcher.cpp.o \
   /usr/lib/libQt6DBus.so.6.10.2 \
@@ -55,6 +56,8 @@ qqmusic-island: \
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:
+
+CMakeFiles/qqmusic-island.dir/qqmusic-island_autogen/mocs_compilation.cpp.o:
 
 CMakeFiles/qqmusic-island.dir/src/main.cpp.o:
 

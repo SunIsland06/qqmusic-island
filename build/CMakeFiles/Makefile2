@@ -76,21 +76,24 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/qqmusic-island.dir/clean
+clean: CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/qqmusic-island_autogen.dir/clean
 .PHONY : clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/qqmusic-island.dir
 
 # All Build rule for target.
-CMakeFiles/qqmusic-island.dir/all:
+CMakeFiles/qqmusic-island.dir/all: CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir/all
+CMakeFiles/qqmusic-island.dir/all: CMakeFiles/qqmusic-island_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qqmusic-island.dir/build.make CMakeFiles/qqmusic-island.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qqmusic-island.dir/build.make CMakeFiles/qqmusic-island.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/shared/myProject/qqmusic-island/build/CMakeFiles --progress-num=1,2,3 "Built target qqmusic-island"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/shared/myProject/qqmusic-island/build/CMakeFiles --progress-num=1,2,3,4 "Built target qqmusic-island"
 .PHONY : CMakeFiles/qqmusic-island.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/qqmusic-island.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/shared/myProject/qqmusic-island/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/shared/myProject/qqmusic-island/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qqmusic-island.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/shared/myProject/qqmusic-island/build/CMakeFiles 0
 .PHONY : CMakeFiles/qqmusic-island.dir/rule
@@ -100,15 +103,79 @@ qqmusic-island: CMakeFiles/qqmusic-island.dir/rule
 .PHONY : qqmusic-island
 
 # codegen rule for target.
-CMakeFiles/qqmusic-island.dir/codegen:
+CMakeFiles/qqmusic-island.dir/codegen: CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qqmusic-island.dir/build.make CMakeFiles/qqmusic-island.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/shared/myProject/qqmusic-island/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target qqmusic-island"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/shared/myProject/qqmusic-island/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target qqmusic-island"
 .PHONY : CMakeFiles/qqmusic-island.dir/codegen
 
 # clean rule for target.
 CMakeFiles/qqmusic-island.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qqmusic-island.dir/build.make CMakeFiles/qqmusic-island.dir/clean
 .PHONY : CMakeFiles/qqmusic-island.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir
+
+# All Build rule for target.
+CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir/build.make CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir/build.make CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/shared/myProject/qqmusic-island/build/CMakeFiles --progress-num= "Built target qqmusic-island_autogen_timestamp_deps"
+.PHONY : CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/shared/myProject/qqmusic-island/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/shared/myProject/qqmusic-island/build/CMakeFiles 0
+.PHONY : CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir/rule
+
+# Convenience name for target.
+qqmusic-island_autogen_timestamp_deps: CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir/rule
+.PHONY : qqmusic-island_autogen_timestamp_deps
+
+# codegen rule for target.
+CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir/build.make CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/shared/myProject/qqmusic-island/build/CMakeFiles --progress-num= "Finished codegen for target qqmusic-island_autogen_timestamp_deps"
+.PHONY : CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir/codegen
+
+# clean rule for target.
+CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir/build.make CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/qqmusic-island_autogen.dir
+
+# All Build rule for target.
+CMakeFiles/qqmusic-island_autogen.dir/all: CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qqmusic-island_autogen.dir/build.make CMakeFiles/qqmusic-island_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qqmusic-island_autogen.dir/build.make CMakeFiles/qqmusic-island_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/shared/myProject/qqmusic-island/build/CMakeFiles --progress-num=5 "Built target qqmusic-island_autogen"
+.PHONY : CMakeFiles/qqmusic-island_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/qqmusic-island_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/shared/myProject/qqmusic-island/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qqmusic-island_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/shared/myProject/qqmusic-island/build/CMakeFiles 0
+.PHONY : CMakeFiles/qqmusic-island_autogen.dir/rule
+
+# Convenience name for target.
+qqmusic-island_autogen: CMakeFiles/qqmusic-island_autogen.dir/rule
+.PHONY : qqmusic-island_autogen
+
+# codegen rule for target.
+CMakeFiles/qqmusic-island_autogen.dir/codegen: CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qqmusic-island_autogen.dir/build.make CMakeFiles/qqmusic-island_autogen.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/shared/myProject/qqmusic-island/build/CMakeFiles --progress-num=5 "Finished codegen for target qqmusic-island_autogen"
+.PHONY : CMakeFiles/qqmusic-island_autogen.dir/codegen
+
+# clean rule for target.
+CMakeFiles/qqmusic-island_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qqmusic-island_autogen.dir/build.make CMakeFiles/qqmusic-island_autogen.dir/clean
+.PHONY : CMakeFiles/qqmusic-island_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

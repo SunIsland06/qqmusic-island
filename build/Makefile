@@ -129,6 +129,56 @@ qqmusic-island/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qqmusic-island.dir/build.make CMakeFiles/qqmusic-island.dir/build
 .PHONY : qqmusic-island/fast
 
+#=============================================================================
+# Target rules for targets named qqmusic-island_autogen_timestamp_deps
+
+# Build rule for target.
+qqmusic-island_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qqmusic-island_autogen_timestamp_deps
+.PHONY : qqmusic-island_autogen_timestamp_deps
+
+# fast build rule for target.
+qqmusic-island_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir/build.make CMakeFiles/qqmusic-island_autogen_timestamp_deps.dir/build
+.PHONY : qqmusic-island_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named qqmusic-island_autogen
+
+# Build rule for target.
+qqmusic-island_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qqmusic-island_autogen
+.PHONY : qqmusic-island_autogen
+
+# fast build rule for target.
+qqmusic-island_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qqmusic-island_autogen.dir/build.make CMakeFiles/qqmusic-island_autogen.dir/build
+.PHONY : qqmusic-island_autogen/fast
+
+qqmusic-island_autogen/mocs_compilation.o: qqmusic-island_autogen/mocs_compilation.cpp.o
+.PHONY : qqmusic-island_autogen/mocs_compilation.o
+
+# target to build an object file
+qqmusic-island_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qqmusic-island.dir/build.make CMakeFiles/qqmusic-island.dir/qqmusic-island_autogen/mocs_compilation.cpp.o
+.PHONY : qqmusic-island_autogen/mocs_compilation.cpp.o
+
+qqmusic-island_autogen/mocs_compilation.i: qqmusic-island_autogen/mocs_compilation.cpp.i
+.PHONY : qqmusic-island_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+qqmusic-island_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qqmusic-island.dir/build.make CMakeFiles/qqmusic-island.dir/qqmusic-island_autogen/mocs_compilation.cpp.i
+.PHONY : qqmusic-island_autogen/mocs_compilation.cpp.i
+
+qqmusic-island_autogen/mocs_compilation.s: qqmusic-island_autogen/mocs_compilation.cpp.s
+.PHONY : qqmusic-island_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+qqmusic-island_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qqmusic-island.dir/build.make CMakeFiles/qqmusic-island.dir/qqmusic-island_autogen/mocs_compilation.cpp.s
+.PHONY : qqmusic-island_autogen/mocs_compilation.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -185,7 +235,12 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... qqmusic-island_autogen"
+	@echo "... qqmusic-island_autogen_timestamp_deps"
 	@echo "... qqmusic-island"
+	@echo "... qqmusic-island_autogen/mocs_compilation.o"
+	@echo "... qqmusic-island_autogen/mocs_compilation.i"
+	@echo "... qqmusic-island_autogen/mocs_compilation.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

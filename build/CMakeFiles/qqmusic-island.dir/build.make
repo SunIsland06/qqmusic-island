@@ -72,10 +72,24 @@ include CMakeFiles/qqmusic-island.dir/flags.make
 CMakeFiles/qqmusic-island.dir/codegen:
 .PHONY : CMakeFiles/qqmusic-island.dir/codegen
 
+CMakeFiles/qqmusic-island.dir/qqmusic-island_autogen/mocs_compilation.cpp.o: CMakeFiles/qqmusic-island.dir/flags.make
+CMakeFiles/qqmusic-island.dir/qqmusic-island_autogen/mocs_compilation.cpp.o: qqmusic-island_autogen/mocs_compilation.cpp
+CMakeFiles/qqmusic-island.dir/qqmusic-island_autogen/mocs_compilation.cpp.o: CMakeFiles/qqmusic-island.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/shared/myProject/qqmusic-island/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/qqmusic-island.dir/qqmusic-island_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qqmusic-island.dir/qqmusic-island_autogen/mocs_compilation.cpp.o -MF CMakeFiles/qqmusic-island.dir/qqmusic-island_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/qqmusic-island.dir/qqmusic-island_autogen/mocs_compilation.cpp.o -c /mnt/shared/myProject/qqmusic-island/build/qqmusic-island_autogen/mocs_compilation.cpp
+
+CMakeFiles/qqmusic-island.dir/qqmusic-island_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qqmusic-island.dir/qqmusic-island_autogen/mocs_compilation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/shared/myProject/qqmusic-island/build/qqmusic-island_autogen/mocs_compilation.cpp > CMakeFiles/qqmusic-island.dir/qqmusic-island_autogen/mocs_compilation.cpp.i
+
+CMakeFiles/qqmusic-island.dir/qqmusic-island_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qqmusic-island.dir/qqmusic-island_autogen/mocs_compilation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/shared/myProject/qqmusic-island/build/qqmusic-island_autogen/mocs_compilation.cpp -o CMakeFiles/qqmusic-island.dir/qqmusic-island_autogen/mocs_compilation.cpp.s
+
 CMakeFiles/qqmusic-island.dir/src/main.cpp.o: CMakeFiles/qqmusic-island.dir/flags.make
 CMakeFiles/qqmusic-island.dir/src/main.cpp.o: /mnt/shared/myProject/qqmusic-island/src/main.cpp
 CMakeFiles/qqmusic-island.dir/src/main.cpp.o: CMakeFiles/qqmusic-island.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/shared/myProject/qqmusic-island/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/qqmusic-island.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/shared/myProject/qqmusic-island/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/qqmusic-island.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qqmusic-island.dir/src/main.cpp.o -MF CMakeFiles/qqmusic-island.dir/src/main.cpp.o.d -o CMakeFiles/qqmusic-island.dir/src/main.cpp.o -c /mnt/shared/myProject/qqmusic-island/src/main.cpp
 
 CMakeFiles/qqmusic-island.dir/src/main.cpp.i: cmake_force
@@ -89,7 +103,7 @@ CMakeFiles/qqmusic-island.dir/src/main.cpp.s: cmake_force
 CMakeFiles/qqmusic-island.dir/src/mpris_watcher.cpp.o: CMakeFiles/qqmusic-island.dir/flags.make
 CMakeFiles/qqmusic-island.dir/src/mpris_watcher.cpp.o: /mnt/shared/myProject/qqmusic-island/src/mpris_watcher.cpp
 CMakeFiles/qqmusic-island.dir/src/mpris_watcher.cpp.o: CMakeFiles/qqmusic-island.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/shared/myProject/qqmusic-island/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/qqmusic-island.dir/src/mpris_watcher.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/shared/myProject/qqmusic-island/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/qqmusic-island.dir/src/mpris_watcher.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qqmusic-island.dir/src/mpris_watcher.cpp.o -MF CMakeFiles/qqmusic-island.dir/src/mpris_watcher.cpp.o.d -o CMakeFiles/qqmusic-island.dir/src/mpris_watcher.cpp.o -c /mnt/shared/myProject/qqmusic-island/src/mpris_watcher.cpp
 
 CMakeFiles/qqmusic-island.dir/src/mpris_watcher.cpp.i: cmake_force
@@ -102,12 +116,14 @@ CMakeFiles/qqmusic-island.dir/src/mpris_watcher.cpp.s: cmake_force
 
 # Object files for target qqmusic-island
 qqmusic__island_OBJECTS = \
+"CMakeFiles/qqmusic-island.dir/qqmusic-island_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/qqmusic-island.dir/src/main.cpp.o" \
 "CMakeFiles/qqmusic-island.dir/src/mpris_watcher.cpp.o"
 
 # External object files for target qqmusic-island
 qqmusic__island_EXTERNAL_OBJECTS =
 
+qqmusic-island: CMakeFiles/qqmusic-island.dir/qqmusic-island_autogen/mocs_compilation.cpp.o
 qqmusic-island: CMakeFiles/qqmusic-island.dir/src/main.cpp.o
 qqmusic-island: CMakeFiles/qqmusic-island.dir/src/mpris_watcher.cpp.o
 qqmusic-island: CMakeFiles/qqmusic-island.dir/build.make
@@ -115,7 +131,7 @@ qqmusic-island: CMakeFiles/qqmusic-island.dir/compiler_depend.ts
 qqmusic-island: /usr/lib/libQt6DBus.so.6.10.2
 qqmusic-island: /usr/lib/libQt6Core.so.6.10.2
 qqmusic-island: CMakeFiles/qqmusic-island.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/shared/myProject/qqmusic-island/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable qqmusic-island"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/shared/myProject/qqmusic-island/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable qqmusic-island"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qqmusic-island.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
